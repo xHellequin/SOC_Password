@@ -1,18 +1,43 @@
-SOC Password
-Portal local para gerenciamento de solicitações de troca de senha.
+# 🔐 SOC Password
 
-Módulos
-Dashboard
-Chamados
-Importação
-Mensagens
-Tecnologias
-HTML
-CSS
-JavaScript
-LocalStorage
-Estrutura
-/css /js /paginas
+Portal local para gerenciamento de solicitações de alteração de senha.
 
-Versão
-1.0.0
+## Funcionalidades
+
+- Dashboard Operacional
+- Importação de Usuários
+- Gerenciamento de Chamados
+- Templates de Mensagens
+- Integração com Teams
+- Integração com E-mail
+- Persistência Local (LocalStorage)
+
+## Estrutura
+
+```text
+SOC_Password
+├── index.html
+├── css/
+├── js/
+├── paginas/
+└── assets/
+```
+
+## Importação
+
+Formato:
+
+```text
+Nome Sobrenome,email@empresa.com
+```
+
+## Variáveis
+
+```text
+{NOME}
+{EMAIL}
+```
+
+## Versão Atual
+
+v1.0.0
