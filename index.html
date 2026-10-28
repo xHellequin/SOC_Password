@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SOC Password Center</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="hero">
+
+    <div class="logo">
+        SOC PASSWORD CENTER
+    </div>
+
+    <div class="dashboard">
+
+        <div class="stat-card">
+            <span id="total">0</span>
+            <small>TOTAL</small>
+        </div>
+
+        <div class="stat-card">
+            <span id="pendentes">0</span>
+            <small>PENDENTES</small>
+        </div>
+
+        <div class="stat-card">
+            <span id="tratados">0</span>
+            <small>TRATADOS</small>
+        </div>
+
+    </div>
+
+</header>
+
+<section class="cards">
+
+    <div class="card"
+         onclick="location.href='paginas/chamados.html'">
+        📋 Chamados
+    </div>
+
+    <div class="card"
+         onclick="location.href='paginas/importar.html'">
+        📥 Importação
+    </div>
+
+    <div class="card"
+         onclick="location.href='paginas/mensagens.html'">
+        💬 Mensagens
+    </div>
+
+</section>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>

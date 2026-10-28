@@ -1,0 +1,1 @@
+const d=JSON.parse(localStorage.getItem("socUsuarios")||"[]");total.innerText=d.length;pendentes.innerText=d.filter(x=>x.status!=="TRATADO").length;tratados.innerText=d.filter(x=>x.status==="TRATADO").length;
